@@ -1,0 +1,59 @@
+@import './variables.scss';
+
+.estilo-link{
+    cursor: pointer;
+    font-family: $font-family-gov;
+    color: $link-color;
+    text-decoration: underline;
+}
+.estilo-link:hover{
+    color: inherit;
+}
+.text-title{
+    color: $title-color;
+    font-size: 2rem;
+}
+.text-subtitle{
+    color: $title-color;
+    font-size: 1.2rem;
+}
+.text-desactivated{
+    color: $desactivated-button-color !important;
+}
+// ------------------------------ styles for cards ------------------------------ //
+.unique-card{
+    display: block !important;
+}
+.shopping-card{
+    min-height: 100px !important;
+}
+.shopping-card-header{
+    height: 36px !important;
+}
+.swal2-container {
+  z-index: 20000 !important;
+}
+// ------------------------------ styles for cards ------------------------------ //
+
+
+// ------------------------------ styles for button ------------------------------ //
+.button-new{
+    text-align: right;
+    padding: 0px 0px 10px 0px !important;
+}
+.search-card{
+    text-align: left;
+    padding: 0px 0px 10px 0px !important;
+}
+// ------------------------------ styles for button ------------------------------ //
+
+
+// ------------------------------ styles for links ------------------------------ //
+
+
+// ------------------------------ styles for links ------------------------------ //
+
+
+// ------------------------------ icons with inputs forms interns ------------------------------ //
+
+// ------------------------------ icons with inputs forms interns ------------------------------ //
